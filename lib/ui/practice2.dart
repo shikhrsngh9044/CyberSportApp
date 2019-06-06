@@ -50,6 +50,7 @@ class RectangleClipper extends CustomClipper<ClipRRect> {
     var path = Path();
 
     path.lineTo(0.0, size.height - 200.0);
+    //
 
     path.lineTo(size.width, size.height);
     path.lineTo(size.width, 0.0);
